@@ -2,6 +2,13 @@
 
 An executive-level Tableau analytics dashboard analyzing sales performance, YoY revenue growth, and monthly order trends for EList Electronics.
 
+## Elist Data 
+
+The database structure, as shown below, consists of four tables: orders, customers, geo_lookup, and order_status, with a total row count of 10,8127 records.
+
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/97a6d5b2-ca06-4421-bb6a-b0eeb72b9a68" />
+
+
 ## Tech Stack & Tools
 * **Data Visualization:** Tableau Desktop (Executive KPIs, Trend Dashboards, Cohort Comparison)
 * **Data Transformation & Preprocessing:** Google Sheets (Data Audit Logging, String Standardization, Null Management)
