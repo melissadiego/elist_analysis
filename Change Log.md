@@ -1,6 +1,6 @@
 # Data Audit & Change Log
 
-> 📊 **Live Data File:** https://docs.google.com/spreadsheets/d/1OJ2zPolwgpmcqC4AoxJf23PVDp6iuWEwtm-OoHo2FDc/edit?usp=sharing
+**Live Data File:** https://docs.google.com/spreadsheets/d/1OJ2zPolwgpmcqC4AoxJf23PVDp6iuWEwtm-OoHo2FDc/edit?usp=sharing
 
 | Step | Analyst | Data / Column | Action Taken | Logic / Reason | # Affected Rows | Before vs. After Example |
 | :---: | :--- | :--- | :--- | :--- | :---: | :--- |
