@@ -24,7 +24,7 @@ with a total row count of 10,8127 records.
 ## Overview
 EList Electronics is a global e-commerce retailer specializing in consumer tech and electronic accessories. Operating across multiple international markets and sales channels, the company relies heavily on customer loyalty programs, seasonal promotional strategies, and efficient post-purchase experience management to drive long-term revenue growth.
 
-This project analyzes EList’s multi-year transactional order data (2019–2022) to evaluate key financial indicators, monitor order volumes, and measure loyalty program performance. By addressing raw data quality issues, including standardized identifier formats and cleaned relational lookup schemas. This analysis bridges raw transactional logs and executive-ready decision-making.
+This project analyzes EList's multi-year transactional order data (2019–2022) to evaluate key financial indicators, monitor order volumes, and measure loyalty program performance. The analysis also addresses raw data quality issues, including inconsistent identifier formats and incomplete relational lookup schemas, to bridge the gap between raw transactional logs and executive-ready decision-making.
 
 ## Key Business Objectives
 * **Revenue Trends & Sales Performance:** Track macro sales trajectory, average order value (AOV), and year-over-year (YoY) revenue growth across global regions.
@@ -34,12 +34,12 @@ This project analyzes EList’s multi-year transactional order data (2019–2022
 
 ## Executive Summary
 
-Between 2019 and 2022, EList Electronics generated **$28.11M in total revenue** across **108,127 orders**, maintaining an **average monthly revenue of $573.74K**. 
+Between 2019 and 2022, EList Electronics generated **$28.11M** in total revenue across 108,124 orders, maintaining an average monthly revenue of **$585.68K**.
 
-* **Macro Trajectory:** Experienced significant pandemic-era growth that peaked in late 2020, followed by a period of post-peak stabilization.
-* **Loyalty & Retention:** While overall order volume contracted in 2021–2022, loyalty program adoption scaled rapidly, establishing a steady revenue baseline.
-* **Operational Progress:** Strategic operational improvements successfully reduced product refund rates down to zero.
-* **Data Quality Audit:** Identified a post-2021 refund logging cutoff in raw order data, trending recorded refund rates artificially to 0.00% in 2022.
+* **Macro Trajectory:** Significant pandemic-era growth peaked in late 2020, followed by a period of post-peak stabilization and gradual decline.
+* **Loyalty & Retention:** While overall order volume contracted in 2021–2022, loyalty program adoption scaled rapidly, establishing a steady revenue baseline that cushioned the downturn.
+* **Operational Progress:** Recorded product refund rates dropped to zero by 2022 — but this is a data artifact, not a real operational win.
+* **Data Quality Audit:** Identified a post-2021 refund logging cutoff in the raw order data, which artificially trends recorded refund rates to 0.00% in 2022.
   
 
 <img width="1640" height="156" alt="image" src="https://github.com/user-attachments/assets/5ac95daf-9069-44dd-bd12-14f5f0d5b9fe" />
@@ -49,9 +49,9 @@ Between 2019 and 2022, EList Electronics generated **$28.11M in total revenue** 
 
 From 2019 through late 2020, EList experienced rapid revenue expansion, followed by a post-pandemic demand stabilization phase through 2022.
 
-* **Historical Growth Surge (2019 – Late 2020):** Sales started at a steady baseline of **$250K–$350K/month** throughout 2019 before climbing rapidly in 2020, peaking in December 2020 at an all-time high of **$1.25M ($1,251,721)** in monthly revenue.
-* **Post-Peak Stabilization (2021 – 2022):** Following the late 2020 spike, monthly sales normalized across global channels, holding steady at **$600K–$800K** through 2021 before tapering off in 2022.
-* **Low Point & Holiday Recovery:** Monthly revenue hit its lowest point of **$178K ($178,275)** in late 2022 before showing early signs of a holiday upturn toward year-end.
+* **Historical Growth Surge (2019 – Late 2020):**Sales started at a steady baseline of $250K–$350K/month throughout 2019 before climbing rapidly in 2020, peaking in December 2020 at an all-time high of **$1.25M ($1,251,721)** in monthly revenue.
+* **Post-Peak Stabilization (2021 – 2022):** Following the late-2020 spike, monthly sales normalized across global channels, holding steady at $600K–$800K through 2021 before tapering off in 2022.
+* **Low Point & Holiday Recovery:** Monthly revenue hit its lowest point of $178K ($178,275) in late 2022, before showing early signs of a holiday upturn toward year-end.
 
 <img width="1613" height="365" alt="image" src="https://github.com/user-attachments/assets/e9fd9986-77da-4eee-a224-f103c3552e87" />
 
@@ -59,7 +59,7 @@ From 2019 through late 2020, EList experienced rapid revenue expansion, followed
 
 ## Monthly & Yearly Growth Rates
 
-EList’s performance was characterized by massive growth in 2020, followed by severe post-peak contraction and sharp month-to-month volatility across the 2019–2022 timeline.
+EList's performance was characterized by massive growth in 2020, followed by a severe post-peak contraction and sharp month-to-month volatility over the 2019–2022 period.
 
 ### Yearly Growth Dynamics (YoY)
 * **2020 Surge (+163%):** EList experienced exponential expansion in 2020, achieving a **+163% YoY revenue increase** driven by heightened demand for consumer electronics during stay-at-home measures.
@@ -101,8 +101,7 @@ Evaluation of customer engagement metrics reveals that while non-members place h
 
 ## Refund Rates & Average Order Value (AOV)
 
-* **Operational & Data Governance Note:** Recorded refund rates trended downward to 0.00% in 2022. Rather than flawless fulfillment, this reflects a known post-2021 data logging/ingestion cutoff in the raw dataset, which requires a pipeline audit.
-* **Average Order Value Breakdown:** Non-loyalty customers maintained a higher overall basket size at **$274.61**, compared to loyalty members at **$240.23**.
+* **Operational & Data Governance Note:** Recorded refund rates trended downward to 0.00% in 2022. Rather than reflecting flawless fulfillment, this pattern reflects a known post-2021 data logging/ingestion cutoff in the raw dataset. REFUND_TS values are no longer populated after 2021. This requires a pipeline audit before any conclusions are drawn about product return performance or customer satisfaction.
 
 <img width="438" height="420" alt="image" src="https://github.com/user-attachments/assets/5226d696-3d2c-4141-81e4-ce58ee9cc65a" />
 
@@ -112,14 +111,11 @@ Evaluation of customer engagement metrics reveals that while non-members place h
 Based on executive-level trends across sales volume, loyalty adoption, and operational quality from 2019–2022, EList should execute three primary strategies to reignite growth and optimize profitability:
 
 ### 1. Bridge the Loyalty Average Order Value (AOV) Gap
-* **The Insight:** Non-loyalty customers average **$274.61** per order, whereas loyalty members average **$240.23**—leaving a **$34.38 revenue gap** per transaction on your most frequent shoppers.
-* **Action:** Implement minimum spend thresholds for loyalty perks (e.g., *"Spend $275 to earn 2x reward points"* or free expedited shipping) to encourage members to match non-member basket sizes.
+* **The Insight:** Non-loyalty customers average $274.61 per order, versus $240.23 for loyalty members — a $34.43 revenue gap per transaction on EList's most frequent shoppers. Action: Implement minimum spend thresholds for loyalty perks (e.g., "Spend $275 to earn 2x reward points" or free expedited shipping) to encourage members to match non-member basket sizes.
 
 ### 2. Win Back 2020 Peak Customers
-* **The Insight:** After 2020’s record **+163% YoY** growth surge, revenue contracted by **-46% YoY** in 2022. A massive pool of single-time buyers acquired during peak demand has gone cold.
-* **Action:** Launch targeted re-engagement email campaigns for 2020 guest buyers featuring personalized product recommendations and exclusive loyalty sign-up incentives.
+* **The Insight:** After 2020's record +163% YoY growth surge, revenue contracted -46% YoY by 2022. A large pool of single-time buyers acquired during peak demand has gone cold. Action: Launch targeted re-engagement email campaigns for 2020 guest buyers, featuring personalized product recommendations and exclusive loyalty sign-up incentives.
 
 ### 3. Audit 2022 Data Pipelines & Refund Tracking
 
-* **The Insight:** Recorded refund rates dropped from a peak of 9.22% in 2020 down to 0.00% in 2022. Rather than operational perfection, this reflects a known data-logging cutoff after 2021.
-* **Action:** Audit raw order tables and ETL pipelines to restore complete return timestamp tracking before drawing final conclusions on product return performance or customer satisfaction.
+* **The Insight:** Recorded refund rates dropped from a peak of 9.22% in 2020 to 0.00% in 2022 — a known data-logging cutoff after 2021, not a real operational outcome. Action: Audit raw order tables and ETL pipelines to restore complete return timestamp tracking before drawing conclusions on product returns or customer satisfaction.
