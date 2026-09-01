@@ -82,7 +82,7 @@ Evaluation of customer engagement metrics reveals that while non-members place h
 ### Program Insights
 * **Revenue Adoption & Contribution:** Loyalty program revenue grew rapidly from 2019 to 2021, steadily overtaking non-loyalty sales contributions by mid-2021.
 * **Revenue Stabilization:** During the post-peak contraction phase (2021–2022), loyalty revenue surpassed non-loyalty sales, serving as EList’s primary revenue cushion during market pullbacks.
-* **Average Order Value (AOV):** Non-loyalty customers generate a higher average basket size at **$274.61** compared to **$240.23** for loyalty members, a **$34.38 difference per order**.
+* **Average Order Value (AOV):** Non-loyalty customers generate a higher average basket size at **$274.61** compared to **$240.23** for loyalty members, a **$34.43 difference per order**.
 * **Purchase Frequency:** Loyalty members demonstrate a higher average purchase frequency per user, confirming that member rewards successfully drive repeat transactions over time.
 
 ### Strategic Recommendation
@@ -91,7 +91,7 @@ Evaluation of customer engagement metrics reveals that while non-members place h
 > **Yes**, EList should continue using the loyalty program. While non-members spend more per individual transaction, loyalty members generate predictable, recurring cash flow that sustained the business during the 2021–2022 market slowdown.
 
 ### Actionable Next Steps
-* **Increase Loyalty AOV:** Introduce tiered reward thresholds (e.g., *"Spend $275 to unlock free expedited shipping or double points"*) to bridge the **$34.38 gap** and match non-member basket sizes.
+* **Increase Loyalty AOV:** Introduce tiered reward thresholds (e.g., *"Spend $275 to unlock free expedited shipping or double points"*) to bridge the **34.43 gap** and match non-member basket sizes.
 
 
 <img width="1621" height="387" alt="image" src="https://github.com/user-attachments/assets/6a444828-23d4-46bc-a758-dd1e34168767" />
