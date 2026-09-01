@@ -115,12 +115,18 @@ On a per-transaction and per-customer basis, non-loyalty customers currently out
 
 Based on executive-level trends across sales volume, loyalty adoption, and operational quality from 2019–2022, EList should execute three primary strategies to reignite growth and optimize profitability:
 
-### 1. Bridge the Loyalty Average Order Value (AOV) Gap
-* **The Insight:** Non-loyalty customers average $274.61 per order, versus $240.23 for loyalty members — a $34.43 revenue gap per transaction on EList's most frequent shoppers. Action: Implement minimum spend thresholds for loyalty perks (e.g., "Spend $275 to earn 2x reward points" or free expedited shipping) to encourage members to match non-member basket sizes.
+### 1. Bridge the Loyalty AOV and Frequency Gap
+**The Insight:** Non-loyalty customers average $274.61 per order versus $240.23 for loyalty members (a $34.43 gap), and also purchase marginally more often (1.26 vs. 1.16 orders per user). The loyalty program is not currently producing the higher-spend, higher-frequency behavior it's designed to incentivize.
+
+**Action:** Implement minimum spend thresholds and frequency-based rewards (e.g., "Spend $275 to earn 2x reward points," free expedited shipping, or a discount on a customer's next purchase within 60 days) to close both gaps.
 
 ### 2. Win Back 2020 Peak Customers
-* **The Insight:** After 2020's record +163% YoY growth surge, revenue contracted -46% YoY by 2022. A large pool of single-time buyers acquired during peak demand has gone cold. Action: Launch targeted re-engagement email campaigns for 2020 guest buyers, featuring personalized product recommendations and exclusive loyalty sign-up incentives.
+**The Insight:** After 2020's record +163% YoY growth surge, revenue contracted -46% YoY by 2022. A large pool of single-time buyers acquired during peak demand has gone cold.
+
+**Action:**  Launch targeted re-engagement email campaigns for 2020 guest buyers, featuring personalized product recommendations and exclusive loyalty sign-up incentives.
 
 ### 3. Audit 2022 Data Pipelines & Refund Tracking
+**The Insight:** Recorded refund rates dropped from a peak of 9.22% in 2020 to 0.00% in 2022, a known data-logging cutoff after 2021, not a real operational outcome.
 
-* **The Insight:** Recorded refund rates dropped from a peak of 9.22% in 2020 to 0.00% in 2022 — a known data-logging cutoff after 2021, not a real operational outcome. Action: Audit raw order tables and ETL pipelines to restore complete return timestamp tracking before drawing conclusions on product returns or customer satisfaction.
+**Action:** Audit raw order tables and ETL pipelines to restore complete return timestamp tracking before drawing conclusions on product returns or customer satisfaction.
+
