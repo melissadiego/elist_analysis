@@ -4,7 +4,6 @@
 -- Project ID: elist-project-506918
 -- Dataset: elist_dataset.orders_data
 -- Analyst: M. Diego
---
 -- =============================================================================
  
 -- Query 1: Monthly & Annual Revenue Performance
