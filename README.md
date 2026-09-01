@@ -12,7 +12,7 @@ The database structure, as shown below, consists of four tables:
 
 with a total row count of 108,124 records.
 
-<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/97a6d5b2-ca06-4421-bb6a-b0eeb72b9a68" />
+<img width="1636" height="145" alt="image" src="https://github.com/user-attachments/assets/1680a4e8-67b4-4356-8ced-f1c16da84d1a" />
 
 
 ## Tech Stack & Tools
