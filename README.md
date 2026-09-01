@@ -10,7 +10,7 @@ The database structure, as shown below, consists of four tables:
 * geo_lookup
 * order_status
 
-with a total row count of 10,8127 records.
+with a total row count of 108,124 records.
 
 <img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/97a6d5b2-ca06-4421-bb6a-b0eeb72b9a68" />
 
