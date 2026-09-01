@@ -12,7 +12,8 @@ The database structure, as shown below, consists of four tables:
 
 with a total row count of 108,124 records.
 
-<img width="1636" height="145" alt="image" src="https://github.com/user-attachments/assets/1680a4e8-67b4-4356-8ced-f1c16da84d1a" />
+<img width="845" height="512" alt="image" src="https://github.com/user-attachments/assets/8e7bdd7d-9466-4f64-9516-dd35add2f04d" />
+
 
 
 ## Tech Stack & Tools
@@ -41,8 +42,8 @@ Between 2019 and 2022, EList Electronics generated **$28.11M** in total revenue 
 * **Operational Progress:** Recorded product refund rates dropped to zero by 2022 — but this is a data artifact, not a real operational win.
 * **Data Quality Audit:** Identified a post-2021 refund logging cutoff in the raw order data, which artificially trends recorded refund rates to 0.00% in 2022.
   
+<img width="1626" height="148" alt="image" src="https://github.com/user-attachments/assets/7eafde03-4949-46f3-9b7d-ebb57bfcf16d" />
 
-<img width="1640" height="156" alt="image" src="https://github.com/user-attachments/assets/5ac95daf-9069-44dd-bd12-14f5f0d5b9fe" />
 
 
 ## Overall Sales Trends
