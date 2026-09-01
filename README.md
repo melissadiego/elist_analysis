@@ -22,6 +22,8 @@ with a total row count of 108,124 records.
 * **Data Modeling:** Relational Lookups (Primary/Foreign Key Joins between Orders & Country Schema)
 * **Documentation:** GitHub/ Markdown
 
+**Data Preprocessing Note:** The row count difference between the total relational database records (108,124) and the cleaned orders dataset (101,129) accounts for foreign key join boundaries and the exclusion of unlinked non-transactional system logs.
+
 ## Overview
 EList Electronics is a global e-commerce retailer specializing in consumer tech and electronic accessories. Operating across multiple international markets and sales channels, the company relies heavily on customer loyalty programs, seasonal promotional strategies, and efficient post-purchase experience management to drive long-term revenue growth.
 
