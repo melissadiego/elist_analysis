@@ -80,21 +80,23 @@ EList's performance was characterized by massive growth in 2020, followed by a s
 
 ## Loyalty Program Performance & Strategic Recommendation
 
-Evaluation of customer engagement metrics reveals that while non-members place higher single-order totals, loyalty program adoption provides a critical base of recurring revenue.
+Evaluation of customer engagement metrics reveals a more nuanced picture than the notion that "loyalty members are simply better customers." Non-members place higher-value single orders and buy marginally more often but loyalty program adoption still provides a critical, stable base of recurring revenue for the business.
 
 ### Program Insights
-* **Revenue Adoption & Contribution:** Loyalty program revenue grew rapidly from 2019 to 2021, steadily overtaking non-loyalty sales contributions by mid-2021.
-* **Revenue Stabilization:** During the post-peak contraction phase (2021–2022), loyalty revenue surpassed non-loyalty sales, serving as EList’s primary revenue cushion during market pullbacks.
-* **Average Order Value (AOV):** Non-loyalty customers generate a higher average basket size at **$274.61** compared to **$240.23** for loyalty members, a **$34.43 difference per order**.
-* **Purchase Frequency:** Loyalty members demonstrate a higher average purchase frequency per user, confirming that member rewards successfully drive repeat transactions over time.
 
-### Strategic Recommendation
-> **Verdict: Retain and Optimize the Loyalty Program**
-> 
-> **Yes**, EList should continue using the loyalty program. While non-members spend more per individual transaction, loyalty members generate predictable, recurring cash flow that sustained the business during the 2021–2022 market slowdown.
+* **Revenue Adoption & Contribution:** Loyalty program revenue grew rapidly from 2019 to 2021, steadily overtaking non-loyalty sales contributions by mid-2021, and now represents 39% of total revenue from 45% of the customer base.
+* **Revenue Stabilization:** During the post-peak contraction phase (2021–2022), loyalty revenue tracked closely with non-loyalty sales, serving as a more stable revenue stream during market pullbacks and swinging less sharply than non-member sales.
+* **Average Order Value (AOV):** Non-loyalty customers generate a higher average basket size at $274.61 compared to $240.23 for loyalty members a $34.43 gap per order.
+* **Purchase Frequency:** Non-loyalty customers actually show marginally higher purchase frequency per user (1.26) than loyalty members (1.16). This is a small gap in absolute terms and doesn't support a claim that the loyalty program drives more frequent repeat purchases — the program's value case rests on revenue stability and predictability, not on outpacing non-members in either AOV or frequency.
+Strategic Recommendation
+
+**Verdict: Retain the Loyalty Program, but Reassess Its Value Proposition**
+
+On a per-transaction and per-customer basis, non-loyalty customers currently outperform loyalty members on both AOV and purchase frequency. EList should continue the program; its adoption and consistent revenue contribution through the 2021–2022 slowdown still make it a meaningful stabilizer, but it should not assume it is currently driving the behavioral loyalty (bigger, more frequent orders) that a rewards program is typically designed to create. That gap points to a program design opportunity rather than a program cancellation case.
 
 ### Actionable Next Steps
-* **Increase Loyalty AOV:** Introduce tiered reward thresholds (e.g., *"Spend $275 to unlock free expedited shipping or double points"*) to bridge the **$34.43 gap** and match non-member basket sizes.
+* **Close the AOV and Frequency Gap:** Introduce tiered reward thresholds (e.g., "Spend $275 to unlock free expedited shipping or double points") and frequency-based incentives (e.g., a third-purchase discount) to actually produce the behavior change the program should be driving, rather than assuming it's already happening.
+* **Re-verify the Program's ROI:** Given loyalty members underperform on both AOV and frequency, confirm what specific benefit (e.g., lower acquisition cost, higher lifetime retention beyond this order-level window) justifies the program's cost before further investment.
 
 
 <img width="1621" height="387" alt="image" src="https://github.com/user-attachments/assets/6a444828-23d4-46bc-a758-dd1e34168767" />
@@ -104,8 +106,8 @@ Evaluation of customer engagement metrics reveals that while non-members place h
 
 ## Refund Rates & Average Order Value (AOV)
 
-* **Operational & Data Governance Note:** Recorded refund rates trended downward to 0.00% in 2022. Rather than reflecting flawless fulfillment, this pattern reflects a known post-2021 data logging/ingestion cutoff in the raw dataset. REFUND_TS values are no longer populated after 2021. This requires a pipeline audit before any conclusions are drawn about product return performance or customer satisfaction.
-
+* **Operational & Data Governance Note:** Recorded refund rates trended downward to 0.00% in 2022. Rather than reflecting flawless fulfillment, this pattern reflects a known post-2021 data logging/ingestion cutoff in the raw dataset — REFUND_TS values are no longer populated after 2021. This requires a pipeline audit before any conclusions are drawn about product return performance or customer satisfaction.
+  
 <img width="438" height="420" alt="image" src="https://github.com/user-attachments/assets/5226d696-3d2c-4141-81e4-ce58ee9cc65a" />
 
 
