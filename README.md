@@ -91,7 +91,7 @@ Evaluation of customer engagement metrics reveals that while non-members place h
 > **Yes**, EList should continue using the loyalty program. While non-members spend more per individual transaction, loyalty members generate predictable, recurring cash flow that sustained the business during the 2021–2022 market slowdown.
 
 ### Actionable Next Steps
-* **Increase Loyalty AOV:** Introduce tiered reward thresholds (e.g., *"Spend $275 to unlock free expedited shipping or double points"*) to bridge the **34.43 gap** and match non-member basket sizes.
+* **Increase Loyalty AOV:** Introduce tiered reward thresholds (e.g., *"Spend $275 to unlock free expedited shipping or double points"*) to bridge the **$34.43 gap** and match non-member basket sizes.
 
 
 <img width="1621" height="387" alt="image" src="https://github.com/user-attachments/assets/6a444828-23d4-46bc-a758-dd1e34168767" />
