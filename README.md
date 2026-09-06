@@ -131,7 +131,4 @@ Based on executive-level trends across sales volume, loyalty adoption, and opera
 
 ## Dashboard Preview
 
-![Overall Sales Growth Dashboard - Part 1](images/dashboard.png)
-![Overall Sales Growth Dashboard - Part 2](images/dashboard-2.png)
-
 🔗 [View the full interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/melissa.diego7336/viz/ElistProject_17883044843860/OverallSalesGrowth)
