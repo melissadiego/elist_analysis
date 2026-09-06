@@ -43,9 +43,8 @@ Between 2019 and 2022, EList Electronics generated **$28.11M** in total revenue 
 * **Loyalty & Retention:** While overall order volume contracted in 2021–2022, loyalty program adoption scaled rapidly, establishing a steady revenue baseline that cushioned the downturn.
 * **Operational Progress:** Recorded product refund rates dropped to zero by 2022 — but this is a data artifact, not a real operational win.
 * **Data Quality Audit:** Identified a post-2021 refund logging cutoff in the raw order data, which artificially trends recorded refund rates to 0.00% in 2022.
-  
-<img width="1626" height="148" alt="image" src="https://github.com/user-attachments/assets/7eafde03-4949-46f3-9b7d-ebb57bfcf16d" />
 
+  <img width="1223" height="178" alt="image" src="https://github.com/user-attachments/assets/d990aed7-590b-4e0c-a526-560c55b45d75" />
 
 
 ## Overall Sales Trends
@@ -56,8 +55,7 @@ From 2019 through late 2020, EList experienced rapid revenue expansion, followed
 * **Post-Peak Stabilization (2021 – 2022):** Following the late-2020 spike, monthly sales normalized across global channels, holding steady at $600K–$800K through 2021 before tapering off in 2022.
 * **Low Point & Holiday Recovery:** Monthly revenue hit its lowest point of $178K ($178,275) in late 2022, before showing early signs of a holiday upturn toward year-end.
 
-<img width="1613" height="365" alt="image" src="https://github.com/user-attachments/assets/e9fd9986-77da-4eee-a224-f103c3552e87" />
-
+<img width="660" height="372" alt="image" src="https://github.com/user-attachments/assets/687348cd-021d-4d3c-81bd-453674b039d3" />
 
 
 ## Monthly & Yearly Growth Rates
@@ -73,7 +71,8 @@ EList's performance was characterized by massive growth in 2020, followed by a s
 * **Peak MoM Increase (+50.3%):** The highest single-month expansion reached **+50.3%**, driven by strong seasonal promotional pushes and peak sales cycles.
 * **Maximum MoM Drop (-55.2%):** Conversely, the sharpest month-over-month drop reached **-55.2%**, highlighting substantial revenue volatility following holiday shopping surges and off-peak transitions.
 
-<img width="1611" height="370" alt="image" src="https://github.com/user-attachments/assets/0cb48c27-198a-4404-a4c7-15dc701f6c6b" />
+<img width="661" height="401" alt="image" src="https://github.com/user-attachments/assets/32753a61-7f86-4eb8-b367-084b911c66af" />
+
 
 
 
@@ -98,8 +97,8 @@ On a per-transaction and per-customer basis, non-loyalty customers currently out
 * **Close the AOV and Frequency Gap:** Introduce tiered reward thresholds (e.g., "Spend $275 to unlock free expedited shipping or double points") and frequency-based incentives (e.g., a third-purchase discount) to actually produce the behavior change the program should be driving, rather than assuming it's already happening.
 * **Re-verify the Program's ROI:** Given loyalty members underperform on both AOV and frequency, confirm what specific benefit (e.g., lower acquisition cost, higher lifetime retention beyond this order-level window) justifies the program's cost before further investment.
 
+<img width="773" height="621" alt="image" src="https://github.com/user-attachments/assets/5bbfa9e2-08b2-4d91-9ae3-b85bd80bd7c3" />
 
-<img width="1621" height="387" alt="image" src="https://github.com/user-attachments/assets/6a444828-23d4-46bc-a758-dd1e34168767" />
 
 <img width="1181" height="406" alt="image" src="https://github.com/user-attachments/assets/25c790ff-57e6-4359-a5cd-f7619d3bcbaf" />
 
